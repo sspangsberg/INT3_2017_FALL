@@ -1,4 +1,4 @@
-<?php include "db.php"; ?>
+<?php include "db.php"; ?> <!-- Import php file to handle database connectivity -->
 <!DOCTYPE html>
 <html>
 <head>
@@ -48,7 +48,7 @@
         </p>
 
         <div class="ascii">
-            <?php echo GetASCIIArtsFromDB(); ?>
+            <?php echo GetASCIIArtsFromDB(); ?> <!-- Call the function to get ASCII arts from the database -->
         </div>
 
 
