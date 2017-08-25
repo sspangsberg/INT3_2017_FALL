@@ -1,4 +1,4 @@
-
+<?php include "db.php"; ?>
 <!DOCTYPE html>
 <html>
 <head>
@@ -48,7 +48,7 @@
         </p>
 
         <div class="ascii">
-            <?php echo RetrieveASCIIArts(); ?>
+            <?php echo GetASCIIArtsFromDB(); ?>
         </div>
 
 

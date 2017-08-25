@@ -26,7 +26,7 @@ function ConnectToDB()
 
 
 //Function that gets all ASCII Arts from the database and builds an HTML Table
-function RetrieveASCIIArts()
+function GetASCIIArtsFromDB()
 {
   //start building the HTML Table
   $output = "<table class='ascii_table'>";
